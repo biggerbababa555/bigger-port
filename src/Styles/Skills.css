@@ -1,0 +1,49 @@
+/* Skills.css */
+.skills-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 150px;
+  }
+  
+  .section-title {
+    font-size: 40px;
+    color: #333;
+    text-align: right; /* Align the title to the right */
+    margin-bottom: 10px;
+  }
+  
+  .skills-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-section li {
+    font-size: 16px;
+    color: #111111;
+    margin-bottom: 8px;
+    padding-top: 15px;
+  }
+  
+  .skill-name {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed to align the skill names properly */
+  }
+  
+  .progress-bar {
+    background-color: #ffffff;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #575757;
+    
+  }
+
+
+  .lottie{
+    font-size: 200px;
+  }
+  

@@ -1,0 +1,52 @@
+
+
+.condiv{
+    padding:  100px;
+    background-color: rgb(255, 255, 255);
+    flex: var(--condiv-flex);
+    display: flex;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilepic{
+    border-radius: 50%;
+    width: 400px;
+    margin: 30px;
+}
+.shrink img {
+    transition: 1s ease;
+    }
+    .shrink img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+.social{
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+}
+
+.social i{
+    padding-right: 30px;
+    font-size: 60px;
+    color: rgb(145, 145, 145);
+    margin-top: 600px;
+}
+.social i:hover{
+    color: rgb(37, 37, 37);
+
+}
+
+.typingeffect{
+    font-size: 50px;
+    margin-bottom:30px;
+
+}
